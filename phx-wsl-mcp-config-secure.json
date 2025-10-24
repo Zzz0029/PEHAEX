@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "phx-ai": {
+      "command": "wsl",
+      "args": [
+        "--",
+        "/mnt/d/aihex/PHX/hexstrike-wsl-env/bin/python3",
+        "/mnt/d/aihex/PHX/phx_mcp.py",
+        "--server",
+        "http://localhost:8888"
+      ],
+      "description": "PHX AI MCP v1.0 - Advanced Cybersecurity Automation Platform for WSL (Secure Mode - Manual Approval Required)",
+      "timeout": 300,
+      "disabled": false
+    }
+  }
+}
+
