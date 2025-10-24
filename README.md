@@ -1,9 +1,12 @@
 <div align="center">
 
-<img src="assets/hexstrike-logo.png" alt="HexStrike AI Logo" width="220" style="margin-bottom: 20px;"/>
+<img src="assets/hexstrike-logo.png" alt="PHX AI Logo" width="220" style="margin-bottom: 20px;"/>
 
-# HexStrike AI MCP Agents v6.0
-### AI-Powered MCP Cybersecurity Automation Platform
+# PHX AI MCP v1.0 (formerly HexStrike AI v6.0)
+### AI-Powered MCP Cybersecurity Automation Platform - WSL Optimized
+
+> **🚀 PHX AI is the new optimized version designed for WSL compatibility.**  
+> See [PHX-README.md](PHX-README.md) for the new documentation.
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -39,6 +42,36 @@
 
 
 </div>
+
+---
+
+## ⚡ Quick Start (PHX v1.0)
+
+### New PHX Files:
+- **`phx_mcp.py`** - PHX MCP client (replaces hexstrike_mcp.py)
+- **`phx_server.py`** - PHX server (replaces hexstrike_server.py)
+- **`phx-wsl-mcp-config.json`** - WSL configuration
+- **`phx-mcp-configs.md`** - Configuration guide
+- **`PHX-README.md`** - Complete PHX documentation
+
+### WSL Setup (Recommended):
+```bash
+# Start PHX server in WSL
+wsl -- /mnt/d/aihex/hexstrike-ai/hexstrike-wsl-env/bin/python3 /mnt/d/aihex/hexstrike-ai/phx_server.py
+
+# Use config file: phx-wsl-mcp-config.json
+```
+
+### Windows Native Setup:
+```powershell
+# Start PHX server
+.\hexstrike-env\Scripts\python.exe phx_server.py
+
+# Use config file: phx-mcp-config.json
+```
+
+**📖 Full Documentation:** [PHX-README.md](PHX-README.md)  
+**⚙️ Configuration Guide:** [phx-mcp-configs.md](phx-mcp-configs.md)
 
 ---
 
@@ -755,3 +788,4 @@ MIT License - see LICENSE file for details.
 *HexStrike AI v6.0 - Where artificial intelligence meets cybersecurity excellence*
 
 </div>
+# PEHAEX
